@@ -6,6 +6,25 @@ namespace Giraffe
         static void Main(string[] args) {
 
 
+            Book book1 = new Book("Harry Potter", "JK Rowling", 400);
+            
+
+            Console.WriteLine(book1.title);
+            
+
+            Book book2 = new Book("Lord of the Rings", "Tolkein", 700);
+            
+            Console.WriteLine(book2);
+            Console.ReadLine();
+
+            Estudiante estudiante1 = new Estudiante("carla", "puta", 1.5);
+            Estudiante estudiante2 = new Estudiante("carlasss", "putass", 3.0);
+            Console.WriteLine(estudiante1.Honor());
+            Console.WriteLine(estudiante2.Honor());
+            Console.ReadLine();
+
+
+
             //Console.Write("Enter your Name pls adventurer: ");
             //string name = Console.ReadLine();
             //Console.WriteLine("Hello" + name + ".welcome to your new adventure");
